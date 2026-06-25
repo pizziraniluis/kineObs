@@ -31,3 +31,172 @@ xdg-settings
 2026-06-24 23:57:50 Verifying hash & signature. Size= 8323080
 2026-06-24 23:57:50 Saving file
 2026-06-24 23:57:51 Update complete.
+Gdk-Message: 00:20:35.445: obsidian: Fatal IO error 0 (Success) on X server :10.0.
+
+X connection to :10.0 broken (explicit kill or server shutdown).
+Xsession: X session started for abc at Thu Jun 25 00:20:44 UTC 2026
+localuser:abc being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=abc
+dbus-update-activation-environment: setting HOME=/config
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-xrTCEiQrgV,guid=4b9b67c6cfd42cf9f28259566a3c745c
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=abc
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/config/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/config
+Openbox-Message: Unable to find a valid menu file "/var/lib/openbox/debian-menu.xml"
+2026-06-25 00:20:44 Loading updated app package /config/.config/obsidian/obsidian-1.12.7.asar
+Ignored: Error: ENOENT: no such file or directory, open '/config/.config/obsidian/obsidian.json'
+LaunchProcess: failed to execvp:
+xdg-settings
+[330:0625/002045.127450:ERROR:gpu_init.cc(446)] Passthrough is not supported, GL is disabled, ANGLE is 
+2026-06-25 00:20:45 Checking for update using Github
+2026-06-25 00:20:45 Success.
+2026-06-25 00:20:45 Latest version is 1.12.7
+2026-06-25 00:20:45 App is up to date.
+(node:299) electron: Failed to load URL: app://obsidian.md/starter.html with error: ERR_BLOCKED_BY_CLIENT
+(Use `obsidian --trace-warnings ...` to show where the warning was created)
+2026-06-25 01:20:45 Checking for update using Github
+2026-06-25 01:20:45 Success.
+2026-06-25 01:20:45 Latest version is 1.12.7
+2026-06-25 01:20:45 App is up to date.
+X connection to :10.0 broken (explicit kill or server shutdown).
+Gdk-Message: 01:21:09.881: obsidian: Fatal IO error 11 (Resource temporarily unavailable) on X server :10.0.
+
+Xsession: X session started for abc at Thu Jun 25 01:21:45 UTC 2026
+localuser:abc being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=abc
+dbus-update-activation-environment: setting HOME=/config
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-K76cGJgG43,guid=d911c47b86e6743d58d9dc226a3c82a9
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=abc
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/config/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/config
+Openbox-Message: Unable to find a valid menu file "/var/lib/openbox/debian-menu.xml"
+2026-06-25 01:21:46 Loading updated app package /config/.config/obsidian/obsidian-1.12.7.asar
+Ignored: Error: ENOENT: no such file or directory, open '/config/.config/obsidian/obsidian.json'
+LaunchProcess: failed to execvp:
+xdg-settings
+[1225:0625/012146.458158:ERROR:gpu_init.cc(446)] Passthrough is not supported, GL is disabled, ANGLE is 
+2026-06-25 01:21:46 Checking for update using Github
+2026-06-25 01:21:46 Success.
+2026-06-25 01:21:46 Latest version is 1.12.7
+2026-06-25 01:21:46 App is up to date.
+(node:1195) electron: Failed to load URL: app://obsidian.md/starter.html with error: ERR_BLOCKED_BY_CLIENT
+(Use `obsidian --trace-warnings ...` to show where the warning was created)
+XIO:  fatal IO error 104 (Connection reset by peer) on X server ":10.0"
+      after 1759 requests (1583 known processed) with 0 events remaining.
+Xsession: X session started for abc at Thu Jun 25 01:25:24 UTC 2026
+localuser:abc being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=abc
+dbus-update-activation-environment: setting HOME=/config
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-PQCHBG3wNA,guid=80d3eff28228abf0d53398df6a3c8384
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=abc
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/config/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/config
+Openbox-Message: Unable to find a valid menu file "/var/lib/openbox/debian-menu.xml"
+2026-06-25 01:25:24 Loading updated app package /config/.config/obsidian/obsidian-1.12.7.asar
+Ignored: Error: ENOENT: no such file or directory, open '/config/.config/obsidian/obsidian.json'
+LaunchProcess: failed to execvp:
+xdg-settings
+[1226:0625/012524.741519:ERROR:gpu_init.cc(446)] Passthrough is not supported, GL is disabled, ANGLE is 
+2026-06-25 01:25:24 Checking for update using Github
+2026-06-25 01:25:24 Success.
+2026-06-25 01:25:24 Latest version is 1.12.7
+2026-06-25 01:25:24 App is up to date.
+(node:1195) electron: Failed to load URL: app://obsidian.md/starter.html with error: ERR_BLOCKED_BY_CLIENT
+(Use `obsidian --trace-warnings ...` to show where the warning was created)
+X connection to :10.0 broken (explicit kill or server shutdown).
+Gdk-Message: 01:28:30.863: obsidian: Fatal IO error 104 (Connection reset by peer) on X server :10.0.
+
+Xsession: X session started for abc at Thu Jun 25 01:29:06 UTC 2026
+localuser:abc being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=abc
+dbus-update-activation-environment: setting HOME=/config
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-UcdQR4AI71,guid=70be55dc24a26d35581477356a3c8462
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=abc
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/config/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/config
+Openbox-Message: Unable to find a valid menu file "/var/lib/openbox/debian-menu.xml"
+2026-06-25 01:29:06 Loading updated app package /config/.config/obsidian/obsidian-1.12.7.asar
+Ignored: Error: ENOENT: no such file or directory, open '/config/.config/obsidian/obsidian.json'
+LaunchProcess: failed to execvp:
+xdg-settings
+[1227:0625/012907.156952:ERROR:gpu_init.cc(446)] Passthrough is not supported, GL is disabled, ANGLE is 
+[1227:0625/012907.158602:ERROR:sandbox_linux.cc(377)] InitializeSandbox() called with multiple threads in process gpu-process.
+2026-06-25 01:29:07 Checking for update using Github
+2026-06-25 01:29:07 Success.
+2026-06-25 01:29:07 Latest version is 1.12.7
+2026-06-25 01:29:07 App is up to date.
+(node:1195) electron: Failed to load URL: app://obsidian.md/starter.html with error: ERR_BLOCKED_BY_CLIENT
+(Use `obsidian --trace-warnings ...` to show where the warning was created)
+X connection to :10.0 broken (explicit kill or server shutdown).
+Gdk-Message: 01:30:56.149: obsidian: Fatal IO error 0 (Success) on X server :10.0.
+
+Xsession: X session started for abc at Thu Jun 25 01:31:32 UTC 2026
+localuser:abc being added to access control list
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting USER=abc
+dbus-update-activation-environment: setting HOME=/config
+dbus-update-activation-environment: setting XRDP_PULSE_SINK_SOCKET=xrdp_chansrv_audio_out_socket_10
+dbus-update-activation-environment: setting XRDP_PULSE_SOURCE_SOCKET=xrdp_chansrv_audio_in_socket_10
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Xot0tTdAeA,guid=d6a8c10d3aff6e7dc664ac196a3c84f4
+dbus-update-activation-environment: setting PULSE_SCRIPT=/etc/xrdp/pulse/default.pa
+dbus-update-activation-environment: setting LOGNAME=abc
+dbus-update-activation-environment: setting PATH=/sbin:/bin:/usr/bin:/usr/local/bin
+dbus-update-activation-environment: setting XRDP_SOCKET_PATH=/run/xrdp/sockdir
+dbus-update-activation-environment: setting DISPLAY=:10.0
+dbus-update-activation-environment: setting UID=1000
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XRDP_SESSION=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/config/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/config
+Openbox-Message: Unable to find a valid menu file "/var/lib/openbox/debian-menu.xml"
+2026-06-25 01:31:32 Loading updated app package /config/.config/obsidian/obsidian-1.12.7.asar
+Ignored: Error: ENOENT: no such file or directory, open '/config/.config/obsidian/obsidian.json'
+LaunchProcess: failed to execvp:
+xdg-settings
+[1228:0625/013132.801465:ERROR:gpu_init.cc(446)] Passthrough is not supported, GL is disabled, ANGLE is 
+2026-06-25 01:31:32 Checking for update using Github
+2026-06-25 01:31:32 Success.
+2026-06-25 01:31:32 Latest version is 1.12.7
+2026-06-25 01:31:32 App is up to date.
+(node:1196) electron: Failed to load URL: app://obsidian.md/starter.html with error: ERR_BLOCKED_BY_CLIENT
+(Use `obsidian --trace-warnings ...` to show where the warning was created)

@@ -1,6 +1,6 @@
-version: '3.8'
 
 services:
+
   obsidian:
     image: ghcr.io/sytone/obsidian-remote:latest
     container_name: kineobs-obsidian
@@ -20,7 +20,20 @@ services:
       - CUSTOM_HTTPS_PORT=8443
     shm_size: 1gb
 
-  # Serviço temporário para ajudar a construir o projeto
+  kindle-sender:
+    build:
+      context: ./kindle-sender
+      dockerfile: Dockerfile
+    container_name: kineobs-kindle-sender
+    restart: unless-stopped
+    volumes:
+      - ./obsidian-data/vaults:/vault:ro
+      - kindle-logs:/var/log
+    env_file:
+      - .env
+    depends_on:
+      - obsidian
+
   opencode:
     image: node:22-bookworm
     container_name: kineobs-opencode
@@ -32,3 +45,6 @@ services:
     tty: true
     command: bash
     restart: unless-stopped
+
+volumes:
+  kindle-logs:

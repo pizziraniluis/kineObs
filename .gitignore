@@ -1,0 +1,14 @@
+kindle-sender/msmtprc
+.env
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Docker
+*.override.yml

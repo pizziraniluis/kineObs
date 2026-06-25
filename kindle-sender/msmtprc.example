@@ -1,0 +1,17 @@
+# Copie para kindle-sender/msmtprc e preencha com seus dados
+# NUNCA commite o msmtprc real no Git
+
+defaults
+auth           on
+tls            on
+tls_trust_file /etc/ssl/certs/ca-certificates.crt
+logfile        /var/log/msmtp.log
+
+account        gmail
+host           smtp.gmail.com
+port           587
+from           SEU_EMAIL@gmail.com
+user           SEU_EMAIL@gmail.com
+password       SENHA_DE_APP_16_DIGITOS
+
+account default : gmail
